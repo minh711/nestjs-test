@@ -11,11 +11,7 @@ nest new [project name]
 # 2. Install packages
 
 ```
-npm install @nestjs/graphql 
-            graphql-tools 
-            graphql 
-            @nestjs/apollo
-            @apollo/server
+npm i @nestjs/graphql @nestjs/apollo @apollo/server graphql
 ```
 
 # 3. Create Module
