@@ -14,23 +14,23 @@ nest new [project name]
 npm install [package name]
 ```
 
-- `@nestjs/graphql`: A powerful GraphQL module for NestJS framework, providing
-  decorators and utilities to easily build GraphQL APIs.
-- `@nestjs/apollo`: NestJS module for Apollo GraphQL server integration,
-  allowing seamless integration of Apollo server with NestJS applications.
-- `@apollo/server`: A comprehensive GraphQL server implementation by Apollo that
-  supports building robust, performant GraphQL APIs with ease.
-- `graphql`: A JavaScript reference implementation for the GraphQL
-  specification, enabling developers to build and consume GraphQL APIs in
-  various environments.
-- `dotenv`: A zero-dependency module for loading environment variables from a
-  .env file into process.env, simplifying configuration management in Node.js
-  applications.
-- `@nestjs/config`: NestJS module for configuration management, providing a
-  clean and robust way to load environment variables and configuration files
-  into a NestJS application.
-- `typeorm`: ...
-- `pg`: Non-blocking PostgreSQL client for Node.js.
+- `@nestjs/graphql`: A robust **GraphQL** module for NestJS, streamlining API
+  development with **decorators** and **utilities**.
+- `@nestjs/apollo`: Seamlessly integrates Apollo GraphQL server into NestJS
+  applications for efficient **server-side operations**.
+- `@apollo/server`: Apollo's comprehensive GraphQL server implementation,
+  facilitating the creation of **performant APIs**.
+- `graphql`: JavaScript reference implementation of **GraphQL**, enabling API
+  development and consumption across different environments.
+- `dotenv`: Zero-dependency module for loading **environment** variables from
+  `.env `files, simplifying configuration management in Node.js apps.
+- `@nestjs/config`: NestJS module for managing **configuration**, facilitating
+  the loading of environment variables and config files.
+- `typeorm`: TypeScript **ORM** (Object-Relational Mapping) for Node.js,
+  simplifying database interactions with features like entity management and
+  query building.
+- `pg`: Non-blocking **PostgreSQL** client for Node.js, enabling asynchronous
+  database operations.
 
 # 3. Create Module
 
