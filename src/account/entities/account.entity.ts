@@ -2,11 +2,13 @@ import { ObjectType, Field, Int } from '@nestjs/graphql';
 import {
   Column,
   CreateDateColumn,
+  Entity,
   PrimaryGeneratedColumn,
   UpdateDateColumn,
 } from 'typeorm';
 
 @ObjectType()
+@Entity()
 export class Account {
   @PrimaryGeneratedColumn()
   @Field(() => Int)
@@ -20,19 +22,19 @@ export class Account {
   @Field(() => String)
   email: string;
 
-  @Column()
+  @Column({ nullable: true })
   @Field({ nullable: true })
   firstName?: string;
 
-  @Column()
+  @Column({ nullable: true })
   @Field({ nullable: true })
   lastName?: string;
 
-  @Column()
+  @Column({ nullable: true })
   @Field({ nullable: true })
   gender?: string;
 
-  @Column()
+  @Column({ nullable: true })
   @Field(() => Int, { nullable: true })
   age?: number;
 
