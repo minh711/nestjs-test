@@ -26,6 +26,11 @@ npm install [package name]
 - `dotenv`: A zero-dependency module for loading environment variables from a
   .env file into process.env, simplifying configuration management in Node.js
   applications.
+- `@nestjs/config`: NestJS module for configuration management, providing a
+  clean and robust way to load environment variables and configuration files
+  into a NestJS application.
+- `typeorm`: ...
+- `pg`: Non-blocking PostgreSQL client for Node.js.
 
 # 3. Create Module
 
