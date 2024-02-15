@@ -2,13 +2,17 @@
 
 In progress...
 
-# 1. Create the NestJS Project
+---
+
+# Create the Project
+
+## 1. Create the NestJS Project
 
 ```
 nest new [project name]
 ```
 
-# 2. Install packages
+## 2. Install packages
 
 ```
 npm install [package name]
@@ -49,7 +53,44 @@ Validator:
 
 ```
 nest g module [module name]
+
+nest g service [service name]
+
+nest g resolver [resolver name]
 ```
 
 `g` is for generate.
 
+---
+
+# Others
+
+## Fix end of line error in `prettier`
+
+Add this settings in the `rules` section inside `.eslintrc.js`
+
+```js
+"prettier/prettier": [
+  "error",
+  {
+    "endOfLine": "auto"
+  },
+],
+```
+
+The result will be look like this:
+
+```js
+rules: {
+    '@typescript-eslint/interface-name-prefix': 'off',
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      },
+    ],
+  },
+```
